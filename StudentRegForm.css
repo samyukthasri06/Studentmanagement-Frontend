@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Form box */
+.form-container{
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.form-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form layout */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Inputs */
+input{
+    padding: 10px;
+    border: 1px solid navy ;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button */
+button{
+    padding: 10px;
+    background-color: burlywood;
+    color:chocolates;
+    margin:10px;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
+/* Preview section */
+.preview{
+    margin-top: 20px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
